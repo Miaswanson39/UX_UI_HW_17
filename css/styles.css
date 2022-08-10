@@ -1,0 +1,715 @@
+html,body {
+    margin:-200;
+    padding:0;
+    resize: both;
+    overflow: auto;
+}
+
+.backgroundImg{
+    position: absolute;
+    width: 2035px;
+    height: 7648px;
+    left: 0px;
+    top: 0px;    
+}
+.navLogo{
+    position: absolute;
+    width: 165px;
+    height: 100px;
+    left: 50px;
+    top: 70px;
+}
+.about{
+    position: absolute;
+    width: 159px;
+    height: 29px;
+    left: 290px;
+    top: 87px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.skills{
+    position: absolute;
+    width: 144px;
+    height: 29px;
+    left: 465px;
+    top: 87px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.projects{
+    position: absolute;
+    width: 140px;
+    height: 29px;
+    left: 625px;
+    top: 87px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.resume{
+    position: absolute;
+    width: 90px;
+    height: 29px;
+    left: 825px;
+    top: 87px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contactButton{
+    position: absolute;
+    width: 338px;
+    height: 134px;
+    left: 1600px;
+    top: 38px;
+}
+.nameShadow{
+    position: absolute;
+    width: 1464px;
+    height: 450px;
+    left: 270px;
+    top: 523px;
+
+}
+.name{
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    width: 792px;
+    height: 145.72px;
+    left: 745px;
+    top: 690px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 124px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.design{
+    position: absolute;
+    width: 301.71px;
+    height: 72.86px;
+    left: 870px;
+    top: 825px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.heroPng{
+
+    position: absolute;
+    width: 1464px;
+    height: 770px;
+    left: 270px;
+    top: 205px;
+
+    box-shadow: inset 0px 0px 20px 33px rgba(0, 0, 0, 0.65), inset 0px 0px 20px 33px rgba(0, 0, 0, 0.55);
+    border-radius: 110px;
+}
+.contactHere{
+    position: absolute;
+    width: 400px;
+    height: 37px;
+    left: 1050px;
+    top: 1035px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: white;
+}
+.brandLogo{
+    position: absolute;
+    width: 525px;
+    height: 150px;
+    left: 1400px;
+    top: 1015px;
+}
+.OnCatImg{
+    position: absolute;
+    left: 25px;
+    top: 1150px;
+    width: 1150px;
+    height: 1200px;
+}
+/* fix about me font size */
+.AboutMe{
+    text-align: center;
+    position: absolute;
+    width: 590px;
+    height: 450px;
+    left: 1300px;
+    top: 1290px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+
+    color: white;
+}
+
+.skillsHeader{
+    position: absolute;
+    width: 700px;
+    height: 93px;
+    left: 655px;
+    top: 2560px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 93px;
+    text-align: center;
+
+    color: white;
+}
+/* Figure out how to vertically space the list */
+.Figma{
+    list-style-type: none;
+    position: absolute;
+    width: 597.19px;
+    height: 512px;
+    left: 250px;
+    top: 2755px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: white;
+}
+.skillsToggle{
+    position: absolute;
+    width: 1058.16px;
+    height: 442px;
+    left: 640px;
+    top: 2775px;
+}
+.ux{
+    position: absolute;
+    width: 411px;
+    height: 194px;
+    left: 226px;
+    top: 3350px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.web{
+    position: absolute;
+    width: 411px;
+    height: 194px;
+    left: 825px;
+    top: 3350px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.graphic{
+    position: absolute;
+    width: 411px;
+    height: 194px;
+    left: 1390px;
+    top: 3350px;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.extraPaper{
+    position: absolute;
+    width: 925px;
+    height: 865px;
+    left: 100px;
+    top: 3700px;
+}
+.atDesk{
+    position: absolute;
+    width: 1259.72px;
+    height: 1048.21px;
+    left: 700px;
+    top: 3800px;
+}
+.Projects{
+    position: absolute;
+    width: 415px;
+    height: 93px;
+    left: 800px;
+    top: 4835px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 93px;
+
+    color: white;
+}
+.Paragraph{
+    position: absolute;
+    width: 908px;
+    height: 62px;
+    left: 570px;
+    top: 4975px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    color: white;
+}
+.Visite{
+    position: absolute;
+    width: 370px;
+    height: 343px;
+    left: 265px;
+    top: 5150px;
+    border-radius: 12%;
+    border: 1px solid;
+    box-shadow: 10px 10px 36px, -10px -10px 36px black;
+}
+.Pawfriendly{
+    position: absolute;
+    width: 370px;
+    height: 343px;
+    left: 835px;
+    top: 5150px;
+}
+.Tokyo{
+    position: absolute;
+    width: 370px;
+    height: 343px;
+    left: 1400px;
+    top: 5150px;
+}
+.pVisite{
+    position: absolute;
+    width: 207px;
+    height: 65px;
+    left: 290px;
+    top: 5490px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: white;
+}
+.pPawfriendly{
+    position: absolute;
+    width: 207px;
+    height: 65px;
+    left: 855px;
+    top: 5490px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: white;
+}
+.pTokyo{
+    position: absolute;
+    width: 207px;
+    height: 65px;
+    left: 1420px;
+    top: 5490px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color:white;
+}
+.viewMore{
+    position: absolute;
+    width: 338px;
+    height: 134px;
+    left: 855px;
+    top: 5700px;
+}
+.bottomPaper{
+    position: absolute;
+    width: 4000px;
+    height: 651px;
+    left: 200px;
+    top: 5815px;
+}
+.formBack{
+    position: absolute;
+    width: 2035px;
+    height: 1125px;
+    left: 0px;
+    top: 6300px;
+
+    display:inline-block;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:space-evenly;
+
+    box-shadow: 0px 0px 55px 2px, 0px 0px 45px 2px;    
+}
+.formBox{
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    width: 1025px;
+    height: 875px;
+    left: 475px;
+    top: 6450px;
+
+    /* display:flex;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:space-evenly; */
+
+
+    background: #133366;
+    box-shadow: inset 0px 0px 36px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 78px;
+}
+.h2Contact{
+    position: absolute;
+    width: 404px;
+    height: 93px;
+    left: 770px;
+    top: 6260px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 93px;
+
+    color: white;
+}
+.first{
+    position: absolute;
+    width: 200px;
+    height: 43px;
+    left: 550px;
+    top: 6500px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: white;
+}
+.last{
+    position: absolute;
+    width: 192px;
+    height: 43px;
+    left: 1000px;
+    top: 6500px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: white;
+}
+.email{
+    position: absolute;
+    width: 119px;
+    height: 43px;
+    left: 550px;
+    top: 6685px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: white;
+}
+.message{
+    position: absolute;
+    width: 365px;
+    height: 43px;
+    left: 550px;
+    top: 6870px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: white;
+}
+.hrFirst{
+    position: absolute;
+    width: 390px;
+    height: 0px;
+    left: 550px;
+    top: 6655px;
+
+    border: 4px solid white;
+}
+.hrLast{
+    position: absolute;
+    width: 390px;
+    height: 0px;
+    left: 1000px;
+    top: 6655px;
+
+    border: 4px solid white;
+}
+.hrEmail{
+    position: absolute;
+    width: 840px;
+    height: 0px;
+    left: 550px;
+    top: 6840px;
+    
+    border: 4px solid white;
+}
+.hrMessage{
+    position: absolute;
+    width: 840px;
+    height: 0px;
+    left: 550px;
+    top: 7025px;
+
+    border: 4px solid white;
+}
+.submit{
+    position: absolute;
+    width: 338px;
+    height: 134px;
+    left: 830px;
+    top: 7140px;
+
+}
+.footerLogo{
+    position: absolute;
+    width: 125px;
+    height: 100px;
+    left: 75px;
+    top: 7459px;
+}
+.about1{
+    position: absolute;
+    width: 159px;
+    height: 29px;
+    left: 290px;
+    top: 7470px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.skills1{
+    position: absolute;
+    width: 159px;
+    height: 29px;
+    left: 450px;
+    top: 7470px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.projects1{
+    position: absolute;
+    width: 159px;
+    height: 29px;
+    left: 595px;
+    top: 7470px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.resume1{
+    position: absolute;
+    width: 159px;
+    height: 29px;
+    left: 780px;
+    top: 7470px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.follow{
+    position: absolute;
+    width: 428px;
+    height: 37px;
+    left: 1445px;
+    top: 7415px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: white;
+}
+.behancedLogo{
+    position: absolute;
+    width: 525px;
+    height: 150px;
+    left: 1450px;
+    top: 7500px;
+}
+/* .flexContainer{
+  display: flex;
+} */
+/* .workGrid{
+    display: grid;
+} */
+/* .contentImg{
+    position: relative;
+    /* text-align: center; */
+
+/* .top{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 574.86px;
+    height: 29.38px;
+    left: 199px;
+    top: 56px;
+    font-family: 'Open Sans', sans-serif;
+} */
+/* .contact{
+    position: absolute;
+    width: 2000px;
+    height: 1000;
+    left: 1279px;
+    top: 35px;
+
+} */
+
+
+.body{
+    font-family: 'Righteous', cursive;
+}
+
+/* .content2{
+    display: inline;
+} */
+
+
+
+
+/* .contact{
+    position: absolute;
+width: 161px;
+height: 52px;
+left: 1793px;
+top: 43px;
+} */
+
